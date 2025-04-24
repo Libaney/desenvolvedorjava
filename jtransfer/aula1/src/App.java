@@ -1,6 +1,6 @@
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Scanner;
+import java.io.FileWriter; // classe para escrever no arquivo
+import java.io.IOException; // classe para tratar excessões do arquivo
+import java.util.Scanner; 
 
 public class App {
     public static void main(String[] args) throws Exception {
