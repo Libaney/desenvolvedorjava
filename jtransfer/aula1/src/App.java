@@ -43,7 +43,16 @@ public class App {
                 meioTransporte = "Carro"; break;
         }
 
-        System.out.println("Name: "+name+","+   "meioTransporte:   "+meioTransporte);
+        System.out.println("Name: "+name+", "+   "meioTransporte:   "+meioTransporte);
+        try(FileWriter escritor = new FileWriter( "dados.txt",true)){
+
+            escritor.write(name+"," +meioTransporte + "\n");
+            System.out.println("Dados gravados com sucesso!!!");
+
+        }catch(IOException e){
+            System.out.println("Erro ao gravar os dados" +e.getMessage());
+
+        }
 
     }
 }

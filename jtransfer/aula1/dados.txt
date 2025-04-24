@@ -1,0 +1,3 @@
+DOCTYPE TEXT language = "PT-UTF8"
+Caio,�nibusmCaio,TaximLibaney,Caminhada
+hhh,Metr�
